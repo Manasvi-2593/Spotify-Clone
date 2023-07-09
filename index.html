@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="images\logo.png" alt="LOGO">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of Taylor swift</h1>
+            <div>
+                <div class="songitem">
+                <img src="images/cover.png" alt="1">
+                <span>1989</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-play-circle"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="images/cover.png" alt="1">
+                <span>Love Story</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-play-circle"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="images/cover.png" alt="1">
+                <span>Reputation</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-play-circle"></i></span></span>
+            </div>
+            </div>
+        </div>
+        <div class="sidebar"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward"></i>
+            <i class="far fa-2x fa-play-circle" id="masterplay"></i>
+            <i class="fas fa-2x fa-step-forward"></i>
+        </div>
+        <div class="songinfo">Speak Now</div>
+    </div>
+    <script src="https://kit.fontawesome.com/e854488985.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
